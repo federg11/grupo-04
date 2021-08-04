@@ -23,8 +23,8 @@ Smartwatch, GoPro, Drones, Consolas de VideoJuegos.etc...
 Nuestra audiencia abarca todas las edades.
 
 ¿Cómo ajustaremos nuestra oferta a ese público?
-<<<<falta agregar una respuesta>>>>
-//////////////////////////////////////////////////////////////////////////
+Nuestro propósito será brindar asesoramiento completo de todos nuestros productos para que el cliente
+se informe como así también sobre el costo de los mismos, ya que al momento de elegir y comprar, el precio/relación sea adecuado a su presupuesto.
 
 3. Buscar inspiración en referentes del mercado:
 agregar un listado de al menos 5 sitios de referencia
@@ -37,8 +37,8 @@ productos la gente compra mucho en este lugar.
 2) http://www.starcomputacion.com.ar/
 JuanGonzalez eligió esta pagina, porque en Rosario, es una de las tiendas que tiene una amplia varieadad de productos, y ademas, su pagina esta muy bien diseñada para encontrar lo que necesitas rapidamente.
 3) https://novati.com.ar/tiendainformatica/
-4)
-5)
+4) https://www.mexx.com.ar/
+5) https://www.overdrivepc.com.ar/
 
 
 
