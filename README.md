@@ -36,7 +36,7 @@ esta pagina fue elegida porque es una de las mas utilizadas, ya que por sus buen
 productos la gente compra mucho en este lugar.
 2) http://www.starcomputacion.com.ar/
 JuanGonzalez eligió esta pagina, porque en Rosario, es una de las tiendas que tiene una amplia varieadad de productos, y ademas, su pagina esta muy bien diseñada para encontrar lo que necesitas rapidamente.
-3) https://novati.com.ar/tiendainformatica/
+3) https://novati.com.ar/tiendainformatica/ Este sitio fue elegido para tener como referencia ya que es una tienda conocida en tucumán por su diseño y la variedad de stock con la cuentan
 4) https://www.mexx.com.ar/
 5) https://www.overdrivepc.com.ar/
 
