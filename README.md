@@ -40,6 +40,14 @@ JuanGonzalez eligió esta pagina, porque en Rosario, es una de las tiendas que t
 4) https://www.mexx.com.ar/
 5) https://www.overdrivepc.com.ar/
 
+#######################################################
+Sprint 2:
+
+tarea A:  < Link al documento o plataforma que utilicen para organizar el trabajo.
+Agregarlo en el archivo README.md.>
+
+https://trello.com/b/vOJPNmWs/digital-house-grupo-4
+
 
 
 
