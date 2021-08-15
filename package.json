@@ -1,0 +1,23 @@
+{
+  "name": "grupo-04",
+  "version": "1.0.0",
+  "description": "1. Repositorio numero 4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0621CDFSNCN12LAED/grupo-04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0621CDFSNCN12LAED/grupo-04/issues"
+  },
+  "homepage": "https://github.com/0621CDFSNCN12LAED/grupo-04#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
