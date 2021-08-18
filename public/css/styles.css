@@ -57,6 +57,9 @@ body{
   padding: 0 15%;
   background: #005196;
 }
+.titulo{
+    color: white;
+}
 .product-contenedor{
     width: 90%;
     padding-top: 15px;
