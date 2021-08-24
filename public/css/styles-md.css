@@ -1,0 +1,15 @@
+/*680 +*/
+.caja-back div {
+  margin: 88px 123px;
+  color: white;
+  transition: all 500ms;
+}
+.button-sec {
+  display: none;
+}
+.caja-back-register {
+  opacity: 1;
+}
+.caja-back-login {
+  opacity: 1;
+}

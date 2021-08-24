@@ -1,0 +1,38 @@
+/*680 +*/
+.caja-back div {
+  /*margin: 88px 123px;*/
+  color: white;
+  transition: all 500ms;
+  padding-left: 42px;
+}
+.button-sec {
+  display: none;
+}
+.caja-back-register {
+  opacity: 1;
+}
+.caja-back-login {
+  opacity: 1;
+  margin-left: 30px;
+}
+.caja-back {
+  margin-left: 94px;
+}
+.button-isesion {
+  width: 50px;
+}
+.caja-back button {
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  transition: all 300ms;
+  width: 132px;
+}
+.fixedmd {
+  width: 190px;
+}
