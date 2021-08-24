@@ -266,6 +266,7 @@ body {
     margin-bottom: 10px;
     position: relative;
     box-shadow: 2px -1px 11px #e22525;
+    display: inline-table;
 }
 .imagen-carrito{
     margin-right: 15px;
@@ -290,3 +291,72 @@ body {
     margin-left: 106px;
     margin-top: 10px;
 }
+.principal-cart{
+    background:#ff2736;
+}
+.form-control{
+        display: block;
+    width: 35%;
+    margin-top: 16px;
+    margin-left: -2px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    
+}
+.form-control-dell {
+        display: block;
+    width: 35%;
+    margin-top: 16px;
+    margin-left: -2px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+   
+    
+}
+.form-control-disco{
+        display: block;
+    width: 35%;
+    margin-top: 16px;
+    margin-left: -2px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    
+}
+.carrito-detalle-producto button{
+    background: #ff2736;
+    color: white;
+}
+
