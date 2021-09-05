@@ -359,4 +359,32 @@ body {
     background: #ff2736;
     color: white;
 }
-
+.caja-productos{
+      background-image: url(../img/Logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color:white;
+  background-color: #ff2736;
+}
+.caja-prod{
+    padding: 70px 30px;
+    border-top: solid thin #ccc;
+    border-left: solid thin #ccc;
+    border-right: solid thin #ccc;
+    background-color: #ccc;
+    width: 100%;
+    height: 70%;
+    font-size: 24px;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+.button-form{
+    font-size: 20px;
+    background-color: #005196;
+    padding: 3px;
+    margin-top: 82px;
+    width: 110px;
+}
