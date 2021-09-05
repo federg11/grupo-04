@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("/partials/head") %>
+</head>
+
+<body>
+    <!--INICIO DEL HEADER-->
+    <header class="header-contenedor">
+        <div class="img-contenedor">
+            <img class="logo" src="/img/header-logo.png" alt="">
+        </div>
+        <nav class="nav-menu">
+            <ul class="ul-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Componentes</a></li>
+                <li><a href="#">Computadoras</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div>
+            <div class="iconos-header">
+                <a href=""> <i class="fas fa-bars"></i> </a>
+                <a href="/productCart"><i class="fas fa-shopping-cart"></i> </a>
+                <a href=""> <i class="fas fa-user"></i> </a>
+                <a href=""> <i class="fas fa-sign-in-alt"></i> </a>
+            </div>
+        </div>
+    </header>
+    <!--FIN DEL HEADER-->
+    <!--INICIO MAIN-->
+    <main class="main-contenedor-mi-carrito">
+        <h3>Mi Carrito</h3>
+        
+        <div class="caja-cart">
+            <img src="/img/xiaomi 1.jpg" 
+                 alt="" 
+                 class="imagen-carrito">
+                 <h2 class="detalle-cart"> Xiaomi redmi note 7</h2>
+                 <h3 class="subdetalle-cart">Color disponible: Negro</h3>
+                <select name="seleccion-cantidad" id="seleccion-cantidad" class="form-control">
+                    <option value="0" selected="">Cantidad...</option>
+                    <option value="3">1</option>
+                    <option value="4">2</option>
+                    <option value="5">3</option>
+                    <option value="5">4</option>
+                    <option value="5">5</option>
+                    <option value="5">6</option>
+                    <option value="5">7</option>
+                    <option value="5">8</option>
+                    <option value="5">9</option>
+                </select>
+                 
+            </div><div class="caja-cart">
+                <img src="/img/dell-xps-7.jpg" alt="" class="imagen-carrito">
+                <h2 class="detalle-cart"> Notebook Dell xps </h2>
+                <h3 class="subdetalle-cart">Color disponible: Plata</h3>
+                <select name="seleccion-cantidad" id="seleccion-cantidad" class="form-control-dell">
+                    <option value="0" selected="">Cantidad...</option>
+                    <option value="3">1</option>
+                    <option value="4">2</option>
+                    <option value="5">3</option>
+                    <option value="5">4</option>
+                    <option value="5">5</option>
+                    <option value="5">6</option>
+                    <option value="5">7</option>
+                    <option value="5">8</option>
+                    <option value="5">9</option>
+                </select>
+            
+            </div><div class="caja-cart">
+                <img src="/img/discohd.jpg" alt="" class="imagen-carrito">
+                <h2 class="detalle-cart"> Disco rigido WD</h2>
+                <h3 class="subdetalle-cart">Color disponible: - </h3>
+                <select name="seleccion-cantidad" id="seleccion-cantidad" class="form-control-disco">
+                    <option value="0" selected="">Cantidad...</option>
+                    <option value="3">1</option>
+                    <option value="4">2</option>
+                    <option value="5">3</option>
+                    <option value="5">4</option>
+                    <option value="5">5</option>
+                    <option value="5">6</option>
+                    <option value="5">7</option>
+                    <option value="5">8</option>
+                    <option value="5">9</option>
+                </select>
+            
+            </div>
+
+        </div>
+        
+        <div class="carrito-detalle-producto">
+            <button type="button">Finalizar compra</button>
+        </div>
+
+
+
+    </main>
+    <!--FIN MAIN-->
+    <!--INICIO FOOTER-->
+    <footer>
+        <%- include("partials/footer") %>
+    </footer>
+    <!--FIN DE FOOTER-->
+    
+
+
+</html>

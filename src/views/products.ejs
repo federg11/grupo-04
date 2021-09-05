@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("partials/head") %>
+  </head>
+  <body class= "caja-productos">
+    <header>
+    <%- include("partials/header") %>
+      </header>
+      <h2 style="
+        margin-left: 36px;
+         ">INGRESÁ TU PRODUCTO
+         </h2>
+    <form class= "caja-prod">
+      <label>Nombre del producto</label>
+      <input type="text" name="" required />
+      <br>
+      <label>Descripción del producto</label>
+      <input type="text" name="" />
+      <br>
+      <label>Imagen del producto</label>
+      <input
+        type="file"
+        name=""
+        placeholder="Solo archivos png o jpeg"
+        accept="image/png,image/jpeg"
+      />
+      <br>
+      <label>Categoria del producto</label>
+      <input type="text" name=""  />
+      <br>
+      <label>Colores</label>
+      <input type="text" name=""/>
+      <br>
+      <label>Almacenamiento</label>
+      <input type="text" name="" />
+      <br>
+      <label>Precio</label>
+      <input type="number" name="" />
+      <br>
+      <label>Marca del producto</label>
+      <select>
+        <option>Seleccione...</option>
+        <option>Samsung</option>
+        <option>HP</option>
+        <option>LG</option>
+        <option>Apple</option>
+        <option>Lenovo</option>
+        <option>Sandisk</option>
+        <option>Kingston</option>
+        <option>Verbatim</option>
+        <option>Western Digital</option>
+        <option>Dell</option>
+        <option>Intel</option>
+        <option>Xiaomi</option>
+        <option>Cannon</option>
+        <option>Sony</option>
+        <option>Otras marcas</option>
+      </select>
+      <br>
+      <button class= "button-form" type="submit">Enviar</button>
+      <button class= "button-form" type="reset">Borrar</button>
+    </form>
+  </body>
+  <footer>
+    <%- include("partials/footer") %>
+  </footer>
+</html>
