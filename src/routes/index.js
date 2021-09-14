@@ -1,33 +1,25 @@
 const express = require("express");
+const productosControllers = require("../controllers/productosControllers");
+const userControllers = require("../controllers/userControllers");
 const router = express.Router();
 
 /* GET home */
-router.get('/', (req, res) => {
-    res.render('index', { title: 'Home' });
-});
+router.get('/', userControllers.home);
 
 /* GET login */
-router.get('/login', (req, res) => {
-    res.render("login", { title: "Login"});
-});
+router.get('/login', userControllers.login);
 
 /*GET register*/
-router.get('/register', (req, res) => {
-    res.render("register", { title: "Register"});
-});
+router.get('/register', userControllers.register);
 
 /* GET product detail*/
-router.get('/productDetail', (req, res) => {
-    res.render("productDetail",{ title: "Detalle de producto"});
-});
+router.get('/productDetail', productosControllers.detalle);
 
 /*GET product cart*/
-router.get("/productCart", (req, res) => {
-    res.render("productCart", { title: "Carrito"});
-});
+router.get("/productCart", userControllers.carrito );
 
-router.get("/products", (req, res) => {
-    res.render("products", { title: "Formulario ingreso prod" });
-});
+/*GET products (crear productos)*/
+
+router.get("/products", productosControllers.crearProducto);
 
 module.exports = router;
