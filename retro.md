@@ -32,16 +32,3 @@ Comenzar a hacer
 -
 
 <<<<<RETROSPECTIVA SPRINT 3>>>>>
-Puntos OK:
-
-- Organización
-- Comunicación
-- Division de tareas
-- Responsabilidad
-- Weekly
-
-Puntos a mejorar:
-
-- Tiempo de entrega
-- Horas de codigo
-- Rapides

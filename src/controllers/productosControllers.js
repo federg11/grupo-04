@@ -8,6 +8,17 @@ let productosControllers = {
     },
     edicionProducto: function(){},
     borradoProducto: function(){},
+    
+    create: (req, res)=>{
+         res.send(req.body.Nombre)
+     },
+    
+    edit: (req,res)=>{
+        let idProducts = req.params.idProducts;
+        res.send(idProducts);
+
+    }
 };
+
 
 module.exports = productosControllers

@@ -1,17 +1,17 @@
 const express = require("express");
+const router = express.Router();
+const { body } = require("express-validator");
 const productosControllers = require("../controllers/productosControllers");
 const userControllers = require("../controllers/userControllers");
-const router = express.Router();
+
 
 /* GET home */
 router.get('/', userControllers.home);
 
 /* GET login */
 router.get('/login', userControllers.login);
-
 /*GET register*/
 router.get('/register', userControllers.register);
-
 /* GET product detail*/
 router.get('/productDetail', productosControllers.detalle);
 
@@ -19,7 +19,11 @@ router.get('/productDetail', productosControllers.detalle);
 router.get("/productCart", userControllers.carrito );
 
 /*GET products (crear productos)*/
-
 router.get("/products", productosControllers.crearProducto);
+
+/*5. / products /: id / edit(GET)*/
+router.get("/edit/:idProducts", productosControllers.edit);
+
+router.post("/products", productosControllers.create)
 
 module.exports = router;

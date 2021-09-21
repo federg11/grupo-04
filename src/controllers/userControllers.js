@@ -11,6 +11,9 @@ let userControllers = {
     carrito: (req, res) => {
         res.render("productCart", { title: "Carrito" });
     },
+    create: (req, res) => {
+        res.send(req.body.email)
+    }
 
 
 }
