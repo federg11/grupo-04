@@ -10,6 +10,7 @@ router.get('/', userControllers.home);
 
 /* GET login */
 router.get('/login', userControllers.login);
+router.post('/login', userControllers.entry);
 /*GET register*/
 router.get('/register', userControllers.register);
 /* GET product detail*/

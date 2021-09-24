@@ -1,5 +1,14 @@
+const fs=require("fs");
+const path = require("path");
+
+const dataJson = fs.readFileSync(path.join(__dirname, "../data/product.json"));
+const productos = JSON.parse(dataJson)
+
 let productosControllers = {
-    listado: function(){},
+    listado: (req, res)=>{
+        //devolver una respuesta
+        res.render("index")
+    },
     crearProducto: (req, res) => {
         res.render("products", { title: "Formulario ingreso prod" });
     },
@@ -10,7 +19,7 @@ let productosControllers = {
     borradoProducto: function(){},
     
     create: (req, res)=>{
-         res.send(req.body.Nombre)
+         res.send(req.body)
      },
     
     edit: (req,res)=>{

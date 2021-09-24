@@ -2,6 +2,12 @@ let userControllers = {
     login: (req, res) => {
         res.render("login", { title: "Login" });
     },
+    entry: (req, res) => {
+            let usuario = {
+                email: req.body.email,
+            };
+            res.send(usuario);
+    },
     register: (req, res) => {
         res.render("register", { title: "Register" });
     },
