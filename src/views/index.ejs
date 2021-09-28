@@ -12,14 +12,37 @@
     </header>
     <!--FIN DEL HEADER-->
     <!--INICIO MAIN-->
-    <main>
-        <%- include("partials/main") %>
-    </main>
+    <section class="main-contenedor">
+        <main>
+        <h2 class="titulo">Productos</h2>
+        <% for (const producto of productos) {%>
+                
+                <div class="product-contenedor">
+                    <div class="product-card">
+                        <a href="/detail/<%= producto.id %> ">
+                            <div class="product-img">
+                                <img src="/img/<%= producto.img %> " alt="<%= producto %> ">
+                            </div>
+                        </a>
+                        <div class="product-info">
+                            <h5><%= producto.name %> </h5>
+                            <h5><%= producto.price %> </h5>
+                        </div>
+                        <div class="boton">
+                        <button type="button">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+              
+            <% } %>
+            
+        </main>
+    </section>
     <!--FIN MAIN-->
     <!--INICIO FOOTER-->
     <footer>
         <%- include("partials/footer") %>
     </footer>
     <!--FIN DE FOOTER-->
-
-</html>
+    
+    </html>

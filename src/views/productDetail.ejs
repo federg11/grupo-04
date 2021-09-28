@@ -12,28 +12,26 @@
     </header>
     <!--FIN DEL HEADER-->
     <!--INICIO MAIN-->
+    
     <main class="main-contenedor-detalle-producto">
         <div class="imagenes-vista">
             <div class="col-12">
                 <div class="item">
-                    <ul class="snap-slider" id="content-slider">
-                        <li><img src="/img/xiaomi 1.jpg" width="100%"></li>
-                        <li><img src="/img/xiaomi 2.jpg" width="100%"></li>
-                        <li><img src="/img/xiaomi 3.jpg" width="100%"></li>
-                        <li><img src="/img/xiaomi 4.jpg" width="100%"></li>
-                    </ul>
+                    <div>
+                    <img src="/img/<%= producto.img %>" alt="<%= producto.name %> ">
+                    </div>
                     <!-- <ul id="content-slider" class="content-slider"></ul> -->
                 </div>
-                <div class="cantidad-fotos">4 fotos</div>
+                <div class="cantidad-fotos">Imagen ilustrativa</div>
             </div>
         </div>
         <div class="caja">
             <div class="detalle-producto">
                 <div class="titulo-descripcion">
-                    <h1>XIAOMI Redmi Note 7 negro 128gb</h1>
+                    <h1><%= producto.name %></h1>
                 </div>
                 <div class="precio">
-                    <p>$18.500</p>
+                    <p><%= producto.price %></p>
                 </div>
             </div>
         </div>
@@ -41,44 +39,44 @@
             <h3>ESPECIFICACIONES</h3>
             <ul class="descripcion">
                 <li data-spec="Marca">
-                    <strong>Marca</strong>
-                    <span>XIAOMI </span>
+                    <strong>Numero ID</strong>
+                    <span><%= producto.id %> </span>
                 </li>
                 <li data-spec="Modelo">
-                    <strong>Modelo</strong>
-                    <span>Redmi Note 7</span>
+                    <strong>Producto</strong>
+                    <span><%= producto.name %></span>
                 </li>
                 <li data-spec="Color principal">
                     <strong>Color principal</strong>
-                    <span>Negro</span>
+                    <span><%= producto.color %></span>
                 </li>
                 <li data-spec="Gb">
                     <strong>Gb</strong>
                     <span>128 gb</span>
                 </li>
                 <li data-spec="Bluetooth">
-                    <strong>Bluetooth</strong>
-                    <span>Si</span>
+                    <strong>Accesibilidad</strong>
+                    <span><%= producto.accesibilidad %></span>
                 </li>
                 <li data-spec="Camara">
                     <strong>Camara</strong>
-                    <span>16 Megapixeles</span>
+                    <span><%= producto.camara %></span>
                 </li>
                 <li data-spec="Camara delantera">
                     <strong>Camara delantera</strong>
-                    <span>12 Megapixeles</span>
+                    <span><%= producto.camara_delantera %></span>
                 </li>
                 <li data-spec="Sonido">
                     <strong>Sonido</strong>
-                    <span>Stereo</span>
+                    <span><%= producto.sonido %></span>
                 </li>
                 <li data-spec="Sim">
                     <strong>Sim</strong>
-                    <span>Dual Sim</span>
+                    <span><%= producto.sim %></span>
                 </li>
                 <li data-spec="Memoria Externa">
                     <strong>Memoria externa</strong>
-                    <span>Hasta 256gb</span>
+                    <span><%= producto.memoriaExterna %></span>
                 </li>
             </ul>
         </div>

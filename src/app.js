@@ -10,6 +10,7 @@ app.set('view engine', 'ejs');
 
 const indexRouter = require('./routes/index');
 app.use('/', indexRouter);
+
 // prendemos el servidor
 app.listen(3000, () => {
     console.log("Servidor corriendo en puerto 3000")
