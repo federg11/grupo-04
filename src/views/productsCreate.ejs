@@ -11,12 +11,12 @@
         margin-left: 36px;
          ">INGRESÁ TU PRODUCTO
          </h2>
-    <form action="productsCreate" method="POST" class= "caja-prod">
+    <form action="/productsCreate" enctype="multipart/form-data" method="POST"  class="caja-prod">
       <label>Nombre del producto</label>
-      <input type="text" name="name" required class="input-form" />
+      <input type="text" name="name" required class="input-form" id="name"/>
       <br>
       <label>Descripción del producto</label>
-      <input type="text" name="descripcion" class="input-form" />
+      <input type="text" name="description" class="input-form" id="description"/>
       <br>
       <label>Imagen del producto</label>
       <input
@@ -25,21 +25,22 @@
         placeholder="Solo archivos png o jpeg"
         accept="image/png,image/jpeg" 
         class="input-form"
+        id="img"
       />
       <br>
-      <label>Categoria del producto</label>
-      <input type="text" name="categoria" class="input-form" />
+      <!-- <label>Categoria del producto</label>
+      <input type="text" name="category" class="input-form" />
       <br>
       <label>Colores</label>
       <input type="text" name="color" class="input-form"/>
       <br>
       <label>Almacenamiento</label>
-      <input type="text" name="almacenamiento" class="input-form" />
-      <br>
+      <input type="text" name="storage" class="input-form" />
+      <br> -->
       <label>Precio</label>
       <input type="number" name="price" class="input-form" />
       <br>
-      <label>Accesibilidad</label>
+      <!-- <label>Accesibilidad</label>
       <input type="text" name="accesibilidad" class="input-form" placeholder="bluetooth,Wifi..." />
       <br>
       <label>Camara</label>
@@ -76,9 +77,9 @@
         <option>Sony</option>
         <option>Otras marcas</option>
       </select>
-      <br>
+      <br> -->
       <button class= "button-form" type="submit">Crear</button>
-      <button class= "button-form" type="reset">Borrar</button>
+      <!-- <button class= "button-form" type="reset">Borrar</button> -->
     </form>
   </body>
   <footer>

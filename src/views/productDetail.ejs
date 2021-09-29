@@ -100,6 +100,18 @@
         <div class="carrito-detalle-producto">
             <button type="button">Añadir al carrito</button>
         </div>
+        <div>
+            <a href="/productEdit/<%= producto.id %> ">
+                <button type="button">Editar</button>
+            </a>
+        </div>
+        <div>
+            <form action="/delete/<%= producto.id %>?_method=DELETE" method="POST">
+                <button type="submit">
+                    Borrar
+                </button>
+            </form>
+        </div>
 
 
 
