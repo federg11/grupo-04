@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ("partials/head.ejs") %> 
+<body>
+    <%- include ("partials/header.ejs") %> 
+        <div>
+            <h2>Bienvenido, <%= user.nombre %>
+            </h2>
+            <br>
+            <img src="/img_user/<%= user.img %> " alt="">
+            <br>
+            <h4>
+                Email: <%= user.email %>
+                id: <%= user.id %> 
+            </h4>
+        </div>
+        <div>
+            <button><a href="/user/editUser/<%= user.id %>">Editar Usuario</a></button>
+        </div>
+
+        <%- include ("partials/footer.ejs") %> 
+</body>
+</html>

@@ -310,16 +310,13 @@
         "name": "Iphone X 64gb",
         "description": "blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est",
         "img": "iphonex.jpg",
-        "category": "Genderfluid",
-        "color": "Purple",
-        "storage": "42.139.97.213",
-        "price": "$90.000",
-        "gb": "64gb",
-        "accesibilidad": "bluetooth,wifi",
-        "camara": "48mpx",
-        "camara_delantera": "40mpx",
-        "sonido": "estereo",
-        "sim": "dual",
-        "memoriaExterna": "hasta 256gb"
+        "price": 500
+    },
+    {
+        "id": 20,
+        "name": "Samsung galaxy",
+        "description": "M 12",
+        "img": "img-1635459051254.jpg",
+        "price": "35000"
     }
 ]

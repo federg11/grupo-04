@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ("partials/head.ejs")  %> 
+<body>
+    <%- include("partials/header.ejs")  %> 
+
+    <h1>Editar Usuario</h1>
+    <div>
+        <form action="/user/editUser/<%= user.id %>?_method=PUT" enctype="multipart/form-data" method="POST"
+            class="caja-prod">
+            <label>Nombre de Usuario</label>
+            <input type="text" name="name" value="<%= user.name %>" required class="input-form" id="nombre" />
+            <br>
+            <label>Apellido de Usuario</label>
+            <input type="text" name="apellido" value="<%= user.apellido %>" class="input-form" id="apellido" />
+            <br>
+            <label>Imagen de perfil</label>
+            <input type="file" name="img" placeholder="Solo archivos png o jpeg" accept="image/png,image/jpeg"
+                class="input-form" id="img" />
+            <br>
+           
+            <button class="button-form" type="submit">Guardar Cambios</button>
+        </form>
+    </div>
+</body>
+</html>
